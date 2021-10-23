@@ -1,3 +1,6 @@
+Short video explaining end-to-end ML System
+https://user-images.githubusercontent.com/63813872/138570614-16767b0d-ad71-4ee6-8e0f-70b857e9910a.mp4
+
 # Mission 1
 
 ## Step 1
