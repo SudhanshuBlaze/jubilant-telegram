@@ -29,7 +29,7 @@ dataset = pd.read_csv(dataset_path, names=column_names,
 
 dataset.tail()
 
- # name of the Storage bucket I created earlier
+ # name of the cloud storage bucket I created earlier
 BUCKET = 'gs://dps-custom-ai-model-bucket'
 
 """### Clean the data
@@ -93,7 +93,7 @@ Caution: The statistics used to normalize the inputs here (mean and standard dev
 
 ### Build the model
 
-Let's build our model. Here, we'll use a `Sequential` model with two densely connected hidden layers, and an output layer that returns a single, continuous value. The model building steps are wrapped in a function, `build_model`, since we'll create a second model, later on.
+Let's build our model. Here, we'll use a `Sequential` model with two densely connected hidden layers, and an output layer that returns a single, continuous value. The model building steps are wrapped in a function, `build_model`.
 """
 
 def build_model():
