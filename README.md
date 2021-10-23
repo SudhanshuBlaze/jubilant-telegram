@@ -30,7 +30,7 @@ docker run $IMAGE_URI
 docker push $IMAGE_URI
 ```
 
-<img src="./Output/Push%20To%20Google%20Container%20Registry.png">
+<img src="./Output%20Images/Push%20To%20Google%20Container%20Registry.png">
 
 ## Step 3: trained the custom model on Vetex AI
 
@@ -38,11 +38,11 @@ docker push $IMAGE_URI
 - Used custom container and selected "gcr.io/dps-custom-ai-model/mpg" container image
 - Machine type used: **n1-standard-4, 4 vCPUs, 15 GiB memory**
 
-  <img src="./Output/Training%20the%20Custom%20model.png">
+  <img src="./Output%20Images/Training%20the%20Custom%20model.png">
 
 ## Step 4: Deployed the model to Endpoint
 
-<img src="./Output/Deployment%20to%20Endpoint.png">
+<img src="./Output%20Images/Deployment%20to%20Endpoint.png">
 
 ## Step 5: Prediction
 
@@ -54,11 +54,11 @@ docker push $IMAGE_URI
 
 - **created a reference to the deployed endpoint**
 
-  <img src="./Output/EndPoint%20Ref.png">
+  <img src="./Output%20Images/EndPoint%20Ref.png">
 
 - **Prediction: used the endpoint for prediction**
 - used "test_mpg" provided in the challenge for prediction
-  <img src="./Output/Prediction.png">
+  <img src="./Output%20Images/Prediction.png">
 - **Predicted MPG: 19.1825542**
 
 # Mission 2
